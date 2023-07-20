@@ -3023,7 +3023,7 @@ var useModal = function (modal, closeOnOverlayClick) {
 
 var Icon$w = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 70, height: 90, href: "/images/yogurt/farms.png" })));
+        React__default['default'].createElement("image", { width: 70, height: 90, href: "/images/yogurt/farm.png" })));
 };
 
 var Icon$v = function (props) {
@@ -3062,7 +3062,7 @@ var Icon$p = function (props) {
 };
 
 var Logo$2 = function () {
-    return (React__default['default'].createElement("img", { alt: "ColaFactory", src: "/images/cub/LogoTextNewDark.png", style: { width: "auto", height: "30px" } }));
+    return (React__default['default'].createElement("img", { alt: "yogurtfinance", src: "/images/cub/LogoTextNewDark.png", style: { width: "auto", height: "30px" } }));
 };
 
 var Icon$o = function (props) {
@@ -3295,7 +3295,7 @@ var links = [
     {
         label: "Vote",
         icon: "VoteIcon",
-        href: "https://snapshot.org/#/colafactory.eth",
+        href: "https://snapshot.org/#/yogurtfinance.eth",
     },
     {
         label: "Team Battle",
@@ -3382,14 +3382,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/colafactory"
+                href: "https://t.me/yogurtfinance"
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/ColaFactoryEN",
+        href: "https://twitter.com/yogurtfinanceEN",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3978,26 +3978,26 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#ED7F10",
-    primary: "#c83c54",
-    primaryBright: "#c83c54",
-    primaryDark: "#c83c54",
-    secondary: "#c83c54",
+    primary: "#33bbe5",
+    primaryBright: "#33bbe5",
+    primaryDark: "#33bbe5",
+    secondary: "#33bbe5",
     success: "#32D9C8",
     successalt: "#e2f4ff",
-    warning: "#c83c54",
-    soon: "#c83c54",
+    warning: "#33bbe5",
+    soon: "#33bbe5",
 };
 var brandColors = {
-    binance: "#c83c54",
+    binance: "#33bbe5",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#c83c54", textDisabled: "#BDC2C4", textSubtle: "#c83c54", borderColor: "#E9EAEB", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", backgroundAlt: "#FFFFFF", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#33bbe5", textDisabled: "#BDC2C4", textSubtle: "#33bbe5", borderColor: "#E9EAEB", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #eff8ff 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
         blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#c83c54", background: "#343135", backgroundDisabled: "#3c3742", backgroundAlt: "#27262c", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#c83c54", tertiary: "#353547", text: "#e2effc", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#33bbe5", background: "#343135", backgroundDisabled: "#3c3742", backgroundAlt: "#27262c", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#33bbe5", tertiary: "#353547", text: "#e2effc", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #2a4654 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
