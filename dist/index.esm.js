@@ -3009,7 +3009,7 @@ var useModal = function (modal, closeOnOverlayClick) {
 
 var Icon$w = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/factory.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/factory.png" })));
 };
 
 var Icon$v = function (props) {
@@ -3029,17 +3029,17 @@ var Icon$t = function (props) {
 
 var Icon$s = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/home.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/home.gif" })));
 };
 
 var Icon$r = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/ido.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/ido.png" })));
 };
 
 var Icon$q = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/info.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/info.png" })));
 };
 
 var Icon$p = function (props) {
@@ -3068,7 +3068,7 @@ var Icon$m = function (props) {
 
 var Icon$l = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/pool.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/pool.png" })));
 };
 
 var Icon$k = function (props) {
@@ -3107,7 +3107,7 @@ var Icon$g = function (props) {
 
 var Icon$f = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/exchange.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/exchange.png" })));
 };
 
 var Icon$e = function (props) {
@@ -3124,7 +3124,7 @@ var Icon$d = function (props) {
 // Shooting yourself in the foot gaming
 var Icon$c = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/vault.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/vault.png" })));
 };
 
 // When khal makes you add a new icon that you showed him
@@ -3136,7 +3136,7 @@ var Icon$b = function (props) {
 
 var Icon$a = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/audit.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/audit.png" })));
 };
 
 var Icon$9 = function (props) {
@@ -3151,7 +3151,7 @@ var Icon$8 = function (props) {
 
 var Icon$7 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/cola/vote.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/vote.png" })));
 };
 
 var IconModule = /*#__PURE__*/Object.freeze({
@@ -3584,7 +3584,7 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement("image", { href: "/images/Cola/vfat.png" }),
+        React.createElement("image", { href: "/images/yogurt/vfat.png" }),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$6;
