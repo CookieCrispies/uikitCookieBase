@@ -3009,7 +3009,7 @@ var useModal = function (modal, closeOnOverlayClick) {
 
 var Icon$w = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/factory.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/farms.png" })));
 };
 
 var Icon$v = function (props) {
@@ -3029,7 +3029,7 @@ var Icon$t = function (props) {
 
 var Icon$s = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/home.gif" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/home.png" })));
 };
 
 var Icon$r = function (props) {
