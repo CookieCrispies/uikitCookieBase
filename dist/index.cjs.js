@@ -723,7 +723,7 @@ var Icon$X = function (props) {
 
 var Icon$W = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/cub/token.svg" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/cub/token.png" })));
 };
 
 var Icon$V = function (props) {
@@ -1884,7 +1884,7 @@ var templateObject_1$p, templateObject_2$c, templateObject_3$7, templateObject_4
 
 var Icon$x = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "images/cub/token.svg" })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: "images/cub/token.png" })));
 };
 
 var rotate = styled.keyframes(templateObject_1$o || (templateObject_1$o = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
