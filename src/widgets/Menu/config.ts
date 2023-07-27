@@ -164,7 +164,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/yogurtfinanceEN",
+    href: "https://twitter.com/YogurtDefi",
   },
 ];
 
