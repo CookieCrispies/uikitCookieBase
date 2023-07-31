@@ -3048,7 +3048,7 @@ var Icon$p = function (props) {
 };
 
 var Logo$2 = function () {
-    return (React.createElement("img", { alt: "yogurtfinance", src: "/images/cub/LogoTextNewDark.png", style: { width: "auto", height: "30px" } }));
+    return (React.createElement("img", { alt: "cookiefinance", src: "/images/cub/LogoTextNewDark.png", style: { width: "auto", height: "30px" } }));
 };
 
 var Icon$o = function (props) {
@@ -3124,7 +3124,7 @@ var Icon$d = function (props) {
 // Shooting yourself in the foot gaming
 var Icon$c = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/vault.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/cookie/vault.png" })));
 };
 
 // When khal makes you add a new icon that you showed him
@@ -3136,7 +3136,7 @@ var Icon$b = function (props) {
 
 var Icon$a = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 70, height: 90, href: "/images/yogurt/audit.png" })));
+        React.createElement("image", { width: 70, height: 90, href: "/images/cookie/audit.png" })));
 };
 
 var Icon$9 = function (props) {
@@ -3281,7 +3281,7 @@ var links = [
     {
         label: "Vote",
         icon: "VoteIcon",
-        href: "https://snapshot.org/#/yogurtfinance.eth",
+        href: "https://snapshot.org/#/cookiefinance.eth",
     },
     {
         label: "Team Battle",
@@ -3368,14 +3368,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/YogurtDeFi"
+                href: "https://t.me/cookiebasefinance"
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/YogurtDefi",
+        href: "https://twitter.com/base_cookie",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3502,7 +3502,7 @@ var templateObject_1$9;
 var PriceLink = styled.a(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://dexscreener.com", target: "_blank" },
+    return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://dexscreener.com/base", target: "_blank" },
         React.createElement(Icon$W, { width: "24px", mr: "8px" }),
         React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -3571,7 +3571,7 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement("image", { href: "/images/yogurt/vfat.png" }),
+        React.createElement("image", { href: "/images/cookie/vfat.png" }),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$6;
@@ -3767,7 +3767,7 @@ var AccountModal = function (_a) {
     return (React.createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React.createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React.createElement(Flex, { mb: "32px" },
-            React.createElement(LinkExternal, { small: true, href: "https://scan.pulsechain.com/address/" + account, mr: "16px" }, "View on PulseScan"),
+            React.createElement(LinkExternal, { small: true, href: "https://basescan.org//address/" + account, mr: "16px" }, "View on BaseScan"),
             React.createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
         React.createElement(Flex, { justifyContent: "center" },
             React.createElement(Button, { scale: "sm", variant: "secondary", onClick: function () {
@@ -3970,7 +3970,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#33bbe5", background: "#343135", backgroundDisabled: "#3c3742", backgroundAlt: "#27262c", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#33bbe5", tertiary: "#353547", text: "#e2effc", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#33bbe5", background: "#8a5027", backgroundDisabled: "#3c3742", backgroundAlt: "#27262c", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#33bbe5", tertiary: "#353547", text: "#e2effc", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #2a4654 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",

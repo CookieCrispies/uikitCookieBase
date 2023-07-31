@@ -69,7 +69,7 @@ export const links = [
   {
     label: "Vote",
     icon: "VoteIcon",
-    href: "https://snapshot.org/#/yogurtfinance.eth",
+    href: "https://snapshot.org/#/cookiefinance.eth",
   },
   {
     label: "Team Battle",
@@ -157,14 +157,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/YogurtDeFi"
+        href: "https://t.me/cookiebasefinance"
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/YogurtDefi",
+    href: "https://twitter.com/base_cookie",
   },
 ];
 
