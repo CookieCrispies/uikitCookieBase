@@ -3280,8 +3280,8 @@ var links = [
     },
     {
         label: 'Bridge',
-        icon: 'NftIcon',
-        href: 'https://bridge.cubdefi.com/',
+        icon: 'BridgeIcon',
+        href: '/Bridge',
     },
     {
         label: "Lottery",
