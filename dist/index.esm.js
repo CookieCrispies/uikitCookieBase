@@ -3227,137 +3227,135 @@ var status = {
 };
 var links = [
     {
-        label: "Home",
-        icon: "HomeIcon",
-        href: "/",
+        label: 'Home',
+        icon: 'HomeIcon',
+        href: '/',
     },
     {
-        label: "Trade",
-        icon: "TradeIcon",
+        label: 'Trade',
+        icon: 'TradeIcon',
         items: [
             {
-                label: "Exchange",
-                href: "https://exchange.pancakeswap.finance",
+                label: 'Exchange',
+                href: 'https://exchange.cookiebase.finance/#/swap',
             },
             {
-                label: "Liquidity",
-                href: "https://exchange.pancakeswap.finance/#/pool",
+                label: 'Liquidity',
+                href: 'https://exchange.cookiebase..finance/#/add/v2/ETH',
+            },
+            {
+                label: 'Bridge',
+                href: 'https://bridge.base.org/',
             },
         ],
     },
     {
-        label: "Farms",
-        icon: "FarmIcon",
-        href: "/farms",
-        status: status.LIVE,
-    },
-    {
-        label: "Pools",
-        icon: "PoolIcon",
-        href: "/syrup",
-    },
-    {
-        label: 'Bridge',
-        icon: 'BridgeIcon',
-        href: '/Bridge',
-    },
-    {
-        label: "Lottery",
-        icon: "TicketIcon",
-        href: "/lottery",
-    },
-    {
-        label: "NFT",
-        icon: "NftIcon",
-        href: "/nft",
-    },
-    {
-        label: "Audit",
-        icon: "AuditIcon",
-        href: "/",
-    },
-    {
-        label: "Vote",
-        icon: "VoteIcon",
-        href: "https://snapshot.org/#/cookiefinance.eth",
-    },
-    {
-        label: "Team Battle",
-        icon: "TeamBattleIcon",
-        href: "/competition",
-        status: status.SOON,
-    },
-    {
-        label: "Profile & Teams",
-        icon: "GroupsIcon",
-        status: status.LIVE,
+        label: 'Yield Farming',
+        icon: 'FarmsIcon',
         items: [
             {
-                label: "Leaderboard",
-                href: "/teams",
-                status: status.NEW,
+                label: 'Farms',
+                href: '/farms',
             },
             {
-                label: "YourProfile",
-                href: "/",
-            },
-        ],
-        calloutClass: "rainbow",
-    },
-    {
-        label: "Info",
-        icon: "InfoIcon",
-        items: [
-            {
-                label: "Overview",
-                href: "https://pancakeswap.info",
-            },
-            {
-                label: "Tokens",
-                href: "https://pancakeswap.info/tokens",
-            },
-            {
-                label: "Pairs",
-                href: "https://pancakeswap.info/pairs",
-            },
-            {
-                label: "Accounts",
-                href: "https://pancakeswap.info/accounts",
+                label: 'Pools',
+                href: '/pools',
             },
         ],
     },
     {
-        label: "IFO",
-        icon: "IfoIcon",
+        label: 'IDO',
+        icon: 'IfoIcon',
+        href: '/ido',
+    },
+    /* {
+      label: 'Lottery',
+      icon: 'TicketIcon',
+      href: '/lottery',
+    }, */
+    /* {
+      label: 'Wrap HBD',
+      icon: 'DollarIcon',
+      href: "https://wleo.io/hbd-bsc/",
+    },
+    {
+      label: 'Wrap HIVE',
+      icon: 'HiveIcon',
+      href: "https://wleo.io/hive-bsc/",
+    },
+    {
+      label: 'PolyCookie',
+      icon: 'PawIcon',
+      href: 'https://polyCookie.com',
+      status: {
+        text: 'Polygon',
+        color: 'warning',
+      },
+    }, */
+    {
+        label: 'Info',
+        icon: 'InfoIcon',
         items: [
+            /* {
+               label: 'Coingecko',
+               href: 'https://coingecko.com/',
+             },
+             {
+               label: 'Coinmarketcap',
+               href: 'https://coinmarketcap.com',
+             },
+             {
+               label: 'PulseX',
+               href: 'https://app.pulsex.com/info/pool/0xca8544e46153f6b2ab535bb6549daaaecb71d58a',
+             }, */
             {
-                label: "Next",
-                href: "/ifo",
+                label: 'BaseScan',
+                href: 'https://basescan.org/address/0x614747C53CB1636b4b962E15e1D66D3214621100#code',
             },
-            {
-                label: "History",
-                href: "/ifo/history",
-            },
+            /* {
+              label: 'Defillama',
+              href: 'https://defillama.com/chain/Pulse',
+            }, */
         ],
     },
     {
-        label: "More",
-        icon: "MoreIcon",
+        label: 'More',
+        icon: 'MoreIcon',
         items: [
             {
-                label: "Github",
-                href: "https://github.com/CubFinance/",
+                label: 'Docs',
+                href: 'https://docs.cookiebase.finance/',
             },
+            /* {
+              label: 'Blog',
+              href: 'https://medium.com/@Cookiedefi',
+            }, */
             {
-                label: "Blog",
-                href: "https://peakd.com/@leofinance",
+                label: 'Github',
+                href: 'https://github.com/CookieBaseFinance',
             },
-            {
-                label: "Discord",
-                href: "https://discord.gg/wWJxRE2k9B"
-            }
         ],
     },
+    /* {
+      label: 'Roadmap',
+      icon: 'MoreIcon',
+      href: 'https://docs.cookiebase.finance/roadmap',
+    },
+    {
+      label: "Tokenized Blogging",
+      icon: "TokenizeIcon",
+      href: "https://leofinance.io/",
+    }, */
+    /* {
+      label: "Blog",
+      icon: "BlogIcon",
+      href: "https://leofinance.io/@leofinance",
+    },
+    {
+      label: 'CertiK Audit',
+      icon: 'AuditIcon',
+      href: 'https://www.certik.org/projects/CookieBase',
+    }, */
 ];
 var socials = [
     {
