@@ -152,7 +152,7 @@ export const links = [
 
 export const socials = [
   {
-    label: "Discord",
+    label: "Telegram",
     icon: "TelegramIcon",
     items: [
       {
@@ -160,6 +160,11 @@ export const socials = [
         href: "https://t.me/cookiebasefinance"
       },
     ],
+  },
+  {
+    label: "Discord",
+    icon: "DiscordIcon",
+    href: "https://discord.gg/wgNsU7ku",
   },
   {
     label: "Twitter",
