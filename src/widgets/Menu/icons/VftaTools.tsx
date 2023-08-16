@@ -4,7 +4,7 @@ import { SvgProps } from "../../../components/Svg";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-        <img alt="defillama" src="/images/cookie/vftatools.png" style={{width: "auto", height: "auto"}} />
+      <img alt="defillama" src="/images/cookie/vftatools.png" style={{width: "auto", height: "auto"}} />
   );
 };
 
