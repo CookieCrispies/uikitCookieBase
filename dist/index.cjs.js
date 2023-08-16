@@ -3180,13 +3180,11 @@ var Icon$9 = function (props) {
 };
 
 var Icon$8 = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 70, height: 90, href: "/images/cookie/defillama.png" })));
+    return (React__default['default'].createElement("img", { alt: "defillama", src: "/images/cookie/defillama.png", style: { width: "auto", height: "auto" } }));
 };
 
 var Icon$7 = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 70, height: 90, href: "/images/cookie/vftatools.png" })));
+    return (React__default['default'].createElement("img", { alt: "defillama", src: "/images/cookie/vftatools.png", style: { width: "auto", height: "auto" } }));
 };
 
 var IconModule = /*#__PURE__*/Object.freeze({
