@@ -27,3 +27,5 @@ export { default as AuditIcon } from "./Audit";
 export { default as DollarIcon } from "./Dollar";
 export { default as HiveIcon } from "./Hive";
 export { default as VoteIcon } from "./Vote";
+export { default as DefillamaIcon } from "./Defillama";
+export { default as VftaToolsIcon } from "./VftaTools";
