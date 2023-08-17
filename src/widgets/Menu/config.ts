@@ -162,6 +162,16 @@ export const socials = [
     ],
   },
   {
+    label: "Coingecko",
+    icon: "CoingeckoIcon",
+    href: "https://www.coingecko.com/en/coins/cookiebase",
+  },
+  {
+    label: "Coinmarketcap",
+    icon: "CoinmarketcapIcon",
+    href: "https://coinmarketcap.com/currencies/cookiebase/",
+  },
+  {
     label: "Discord",
     icon: "DiscordIcon",
     href: "https://discord.gg/wgNsU7ku",

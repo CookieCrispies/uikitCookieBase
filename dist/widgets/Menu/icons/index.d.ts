@@ -6,6 +6,8 @@ export { default as HamburgerCloseIcon } from "./HamburgerClose";
 export { default as HomeIcon } from "./Home";
 export { default as IfoIcon } from "./Ifo";
 export { default as InfoIcon } from "./Info";
+export { default as CoingeckoIcon } from "./Coingecko";
+export { default as CoinmarketcapIcon } from "./Coinmarketcap";
 export { default as BridgeIcon } from "./Bridge";
 export { default as LanguageIcon } from "./Language";
 export { default as LogoIcon } from "./Logo";
