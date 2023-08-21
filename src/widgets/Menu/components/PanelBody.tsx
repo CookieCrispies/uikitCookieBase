@@ -14,11 +14,6 @@ interface Props extends PanelProps, PushedProps {
 
 const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
 
-const ToolLink = styled.a`
-  display: flex;
-  justify-content: center;
-`;
-
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -86,9 +81,6 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
           </MenuEntry>
         );
       })}
-      <ToolLink href="https://vfat.tools/iotex/zoomswap/" target="_blank">
-        {Icons.Defillama}
-      </ToolLink>
     </Container>
   );
 };
